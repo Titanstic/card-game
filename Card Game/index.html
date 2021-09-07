@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Game</title>
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome From Card Game</h1>
+        <!-- Start Description  -->
+        <div class="description-group">
+            <div class="score">
+                <p>Score : <span id="score">0</span>&nbsp;s</p>
+                <p>Height Score : <span id="scoreh">0</span>&nbsp;s</p>
+            </div>
+            <div class="button-group">
+                <button id="btn" onclick="startBtn()">start game</button>
+                <button>leaderboard</button>
+                <button>Quit</button>
+            </div>
+            <p class="time">Time Left :&nbsp;<span id="time">30</span>&nbsp;s</p>
+            <p class="game-over">Game <span id="win">Over</span></p>
+        </div>
+        <!-- End Description -->
+
+        <!--Start Card-->
+        <div class="card-container">
+            <div class="card-group">
+                <div id="1" class="card" onclick="card(this)"></div>
+                <div id="2" class="card" onclick="card(this)"></div>
+                <div id="3" class="card" onclick="card(this)"></div>
+                <div id="4" class="card" onclick="card(this)"></div>
+            </div>
+            <div class="card-group">
+                <div id="5" class="card" onclick="card(this)"></div>
+                <div id="6" class="card" onclick="card(this)"></div>
+                <div id="7" class="card" onclick="card(this)"></div>
+                <div id="8" class="card" onclick="card(this)"></div>
+            </div>
+            <div class="card-group">
+                <div id="9" class="card" onclick="card(this)"></div>
+                <div id="10" class="card" onclick="card(this)"></div>
+                <div id="11" class="card" onclick="card(this)"></div>
+                <div id="12" class="card" onclick="card(this)"></div>
+            </div>
+        </div>
+        <!--End Card-->
+
+
+    </div>
+
+
+
+    <script src="./js/app.js" type="text/javascript"></script>
+</body>
+
+</html>
